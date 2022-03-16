@@ -1,0 +1,162 @@
+header {
+	width: 80%;
+	height: 90px;
+	background-color: #A2DDB2;
+	display: flex;
+	align-content: center;
+	margin: 10px auto 0 auto;
+	border-radius: 15px;
+}
+.menu {
+	width: 50%;
+	align-self: center;
+	margin-left: 50px;
+	font-size: 1.3em;
+	
+	
+}
+
+
+.menu > a{
+	margin-right: 10px;
+	color: black;
+	margin-left: 20px;
+}
+
+.menu a::before {
+	color: #FBFBFB	;
+}
+.navpic {
+	float: left;
+	width: 20%;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.rdv  {
+	background-color: #5EE367;
+	color: ;
+	align-self: center;
+	padding: 8px;
+	border-radius: 50% 20% / 10% 40%;
+	margin-left: 20px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#rdv {
+	margin-left: 100px;
+	font-size: 1.9em;
+	background: no-repeat url("pcio.png");
+	background-position-x:100px ;
+	background-position-y: 40px;
+	height: 60px;
+}
+form {
+	margin-left: 300px;
+	margin-top: 50px;
+	font-size: 1.3em;
+	width: 80%;
+}
+
+.plus {
+	float: right;
+	position: relative;
+	right: 200px;
+}
+input {
+	width: 400px;
+	height: 50px;
+	position: absolute;
+	right: 40%;
+	margin-bottom:100px;
+}
+
+#submit {
+	width: 200px;
+}
+
+footer {
+	background-color: #68C781;
+	margin-top: 300px;
+	height: 280px;
+}
+
+.sup {
+	height: 85%	;
+	display: flex;
+}
+.services {
+	width: 15%;
+	padding-top: 26px;
+	padding-left: 94px;
+	height: 136px;	
+}
+.liens-important  {
+	width: 15%;
+	position: relative;
+	left: 140px;
+	height: 136px;
+	top: 26px;
+}
+
+.rsociaux  {
+	width: 15%;
+	position: relative;
+	left: 210px;
+	height: 136px;
+	top: 26px;
+}
+
+
+.facebook , .gmail {
+	display: flex;
+}
+.facebook p , .gmail p , .siege p , .annexe p , .pediatrie p {
+	position: relative;
+	left: 10px;
+	bottom: 15px;
+}
+.contact {
+	width: 25%;
+	position: relative;
+	left: 310px;
+	height: 136px;
+	top: 26px;
+}
+
+.siege , .annexe , .pediatrie {
+	display: flex;
+}
+
+
+
+.inf {
+	height: 15%;
+	background-color: #4ACF77;
+	display: flex;
+}
+.inf p {
+	margin-left:40px ;
+	color: white;
+}
+.inf img {
+	margin-left: 10px;
+margin-top: 16px;
+position: relative;
+left: 1260px;
+}
+
+.perso p  {
+	display: none;
+}
+.perso:hover p , .acceuil2:hover p , .docs:hover p , .urgence:hover p {
+	display: flex;
+	color: black;
+	position: relative;
+	right: 20px;
+}
+.acceuil2 p , .docs p , .urgence p {
+	display: none;
+}

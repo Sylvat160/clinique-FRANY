@@ -1,0 +1,358 @@
+header {
+	width: 80%;
+	height: 90px;
+	background-color: #A2DDB2;
+	display: flex;
+	align-content: center;
+	margin: 10px auto 0 auto;
+	border-radius: 15px;
+}
+/*display: flex;
+	align-content: center;*/
+
+.menu {
+	width: 50%;
+	align-self: center;
+	margin-left: 50px;
+	font-size: 1.3em;
+	
+	
+}
+
+
+.menu > a{
+	margin-right: 10px;
+	color: black;
+	margin-left: 20px;
+}
+.navpic {
+	float: left;
+	width: 20%;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.rdv  {
+	background-color: #5EE367;
+	color: ;
+	align-self: center;
+	padding: 8px;
+	border-radius: 50% 20% / 10% 40%;
+	margin-left: 20px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.soinsP{
+	 margin-left: 280px;
+	 margin-top: 60px;
+    margin-block: 10px;
+    height: 500px;
+    border-color: black;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+}
+.contenu > h2 {
+	/*margin-left: 200px;*/
+}
+.contenu > img {
+	float: left;
+	position: relative;
+	bottom: 50px;
+
+}
+
+.contenu h3 {
+    font-size: 18px;
+    position: relative;
+    left: 485px;
+    bottom: 10px;
+    width: 23%;
+}
+.contenu p {
+	text-align: justify;
+	position: relative;
+	right: 229px;
+	top: 40px;
+	font-size: 20px;
+}
+
+.contenu span {
+	margin-left: 50px;
+}
+
+
+.fond {
+	height: 400px;
+	border-radius: 10px;
+	background-color: #FBFBFB;
+	margin-right: 195px;
+	width: 90%;
+	position: relative;
+	right: 113px;
+	display: flex;
+}
+.mom {
+	position: relative;
+	right: 222px;
+	bottom: 20px;
+}
+.soinsP h2 {
+	height: 40px;
+	background: no-repeat url("pcio.png");
+	background-position-x: center;
+	background-position-y: 25px ;
+	margin-right: 300px;
+}
+
+.bien {
+	/*! margin-left: 118px; */
+	border-radius: 10px;
+	position: relative;
+	width: 80%;
+	left: 155px;
+	top: 20px;
+}
+.bien h1 {
+	width: 40%;
+	height: 65px;
+	position: relative;
+	left: 319px;
+	background: no-repeat url("pcio.png");
+	background-position-x:127px ;
+	background-position-y:40px ;
+}
+.mal {
+	display: flex;
+}
+.mal img{
+	border-radius: 10px;
+	float: right;
+	position: relative;
+	bottom: -21px;
+}
+.mal p {
+font-size: 25px;	
+position: relative;
+}
+
+.partie3 {
+	height: 400px;
+	margin-left: 200px;
+	text-align: center;
+	/*! margin-right: 256px; */
+	width: 80%;
+	position: relative;
+	right: 159px;
+}
+
+.partie3 h3 {
+	font-size: 30px;
+	height: 65px;
+	background: no-repeat url("pcio.png");
+	background-position-x : center;
+	background-position-y: 45px ;
+	margin-right: -226px;
+}
+.souspartie3{
+	display: flex;
+
+}
+.souspartie3 img {
+	border-radius: 10px;
+	margin-right: 50px;
+	margin-left: 100px;
+}
+.souspartie3 p {
+	font-size: 25px;
+}
+
+.partie4 {
+	height: 350px;
+	margin-left: 133px;
+	text-align: center;
+	border: 1px solid;
+	border-color: black;
+	border-radius: 15px;
+	margin-top: 28px;
+	width: 80%;
+}
+.partie4 h3 {
+	font-size: 30px;
+	height: 65px;
+	background: no-repeat url("pcio.png");
+	background-position-x : center;
+	background-position-y: 45px ;
+}
+.souspartie4 {
+	font-size: 25px;
+	display: flex;
+}
+.souspartie4 img {
+	position: relative;
+	bottom: 100px;
+}
+.souspartie4 p {
+	margin-left: 50px;
+}
+
+.partie5 {
+	height: 500px;
+	margin-left: 360px;
+	text-align: center;
+	border-radius: 15px;
+
+}
+.partie5 h3 {
+	height: 65px;
+	font-size: 25px;
+	background: no-repeat url("pcio.png");
+	background-position-x : center;
+	background-position-y: 45px ;
+	margin-right: 426px;
+}
+.souspartie5 {
+	display: flex;
+	width: 80%;
+}
+.souspartie5 p {
+	font-size: 25px;
+	text-align: justify;
+	margin-left: 36px;
+}
+.ligne {
+    margin-left: 333px;
+    width: 50%;
+    height: 10px;
+    background-color: #68C781;
+    border-radius: 10px;
+    margin-top:20px;
+}
+
+.partie6 {
+	text-align: center;
+	background-color: #68C781;
+	width: 15%;
+	margin-left: 650px ;
+	border-radius: 5px;
+}
+
+.partie7 {
+	text-align: center;
+	background-color: #68C781;
+	width: 30%;
+	margin-left: 540px ;
+	border-radius: 5px;
+}
+.partie8 {
+    text-align: center;
+    background-color: #68C781;
+    width: 22%;
+    margin-left: 595px;
+    border-radius: 5px;
+}
+
+.partie9 {
+	width: 70%;
+    margin-left: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.labo {
+	margin-left: -180px;
+}
+.labo p {
+	height: 20%;
+	background-color: #68C781;
+	color: white;
+	padding-top: 10px;
+}
+
+.resto {
+	margin-left: 273px;
+}
+.resto p {
+	height: 20%;
+	background-color: #68C781;
+	color: white;
+	padding-top: 10px;
+}
+
+footer {
+	background-color: #68C781;
+	margin-top: 300px;
+	height: 280px;
+}
+
+.sup {
+	height: 85%	;
+	display: flex;
+}
+.services {
+	width: 15%;
+	padding-top: 26px;
+	padding-left: 94px;
+	height: 136px;	
+}
+.liens-important  {
+	width: 15%;
+	position: relative;
+	left: 140px;
+	height: 136px;
+	top: 26px;
+}
+
+.rsociaux  {
+	width: 15%;
+	position: relative;
+	left: 210px;
+	height: 136px;
+	top: 26px;
+}
+
+
+.facebook , .gmail {
+	display: flex;
+	margin-bottom: -34px;
+}
+.gmail p , .siege p , .annexe p , .pediatrie p {
+	position: relative;
+	left: 10px;
+	bottom: 15px;
+}
+.facebook p {
+	position: relative;
+	left: 31px;
+	bottom: 35px;
+}
+
+.contact {
+	width: 25%;
+	position: relative;
+	left: 310px;
+	height: 136px;
+	top: 26px;
+}
+
+.siege , .annexe , .pediatrie {
+	display: flex;
+}
+
+
+
+.inf {
+	height: 15%;
+	background-color: #4ACF77;
+	display: flex;
+}
+.inf p {
+	margin-left:40px ;
+	color: white;
+}
+.inf img {
+	margin-left: 10px;
+margin-top: 16px;
+position: relative;
+left: 1257px;
+}

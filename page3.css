@@ -1,0 +1,165 @@
+header {
+	width: 80%;
+	height: 90px;
+	background-color: #A2DDB2;
+	display: flex;
+	align-content: center;
+	margin: 10px auto 0 auto;
+	border-radius: 15px;
+}
+/*display: flex;
+	align-content: center;*/
+
+.menu {
+	width: 50%;
+	align-self: center;
+	margin-left: 50px;
+	font-size: 1.3em;
+	
+	
+}
+
+
+.menu > a{
+	margin-right: 10px;
+	color: black;
+	margin-left: 20px;
+}
+.navpic {
+	float: left;
+	width: 20%;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.rdv  {
+	background-color: #5EE367;
+	align-self: center;
+	padding: 8px;
+	border-radius: 50% 20% / 10% 40%;
+	margin-left: 20px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.pcio h3{
+	text-align: center;
+	font-size: 2em;
+	background: no-repeat url("pcio.png");
+	height: 62px;
+	background-position-x: center;
+	background-position-y: 35px;
+}
+
+.img {
+	margin-left:350px;
+}
+.img img{
+	margin-left:-51px;
+	width: 76%;
+}
+
+.generalistes h3 {
+	background: no-repeat url("pcio.png");
+	background-position-x: center;
+	background-position-y: 40px;
+	height: 60px;
+	text-align: center;
+}
+.generalistes p, .pcio p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 1.5em;
+}
+.rdv2 h3 {
+	font-size: 1.3em;
+	background-color: #5EE367;
+	align-self: center;
+	padding: 8px;
+	border-radius: 50% 20% / 10% 40%;
+	margin-left: 600px;
+	width: 20%;
+	position: relative;
+	bottom: 80px;
+}
+
+
+footer {
+	background-color: #68C781;
+	margin-top: 300px;
+	height: 280px;
+}
+
+.sup {
+	height: 85%	;
+	display: flex;
+}
+.services {
+	width: 15%;
+	padding-top: 26px;
+	padding-left: 94px;
+	height: 136px;	
+}
+.liens-important  {
+	width: 15%;
+	position: relative;
+	left: 140px;
+	height: 136px;
+	top: 26px;
+}
+
+.rsociaux  {
+	width: 15%;
+	position: relative;
+	left: 210px;
+	height: 136px;
+	top: 26px;
+}
+
+
+.facebook , .gmail {
+	display: flex;
+}
+.gmail p , .siege p , .annexe p , .pediatrie p {
+	position: relative;
+	left: 10px;
+	bottom: 15px;
+}
+
+.facebook p {
+	position: relative;
+	left: 37px;
+	bottom: 36px;
+}
+
+.contact {
+	width: 25%;
+	position: relative;
+	left: 310px;
+	height: 136px;
+	top: 26px;
+}
+
+.siege , .annexe , .pediatrie {
+	display: flex;
+}
+
+
+
+.inf {
+	height: 15%;
+	background-color: #4ACF77;
+	display: flex;
+}
+.inf p {
+	margin-left:40px ;
+	color: white;
+}
+.inf img {
+	margin-left: 10px;
+margin-top: 16px;
+position: relative;
+left: 1260px;
+}

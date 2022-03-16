@@ -1,0 +1,312 @@
+header {
+	width: 80%;
+	height: 90px;
+	background-color: #A2DDB2;
+	display: flex;
+	align-content: center;
+	margin: 10px auto 0 auto;
+	border-radius: 15px;
+}
+/*display: flex;
+	align-content: center;*/
+
+.menu {
+	width: 50%;
+	align-self: center;
+	margin-left: 50px;
+	font-size: 1.3em;
+	
+	
+}
+
+
+.menu > a{
+	margin-right: 10px;
+	color: black;
+	margin-left: 20px;
+}
+
+.menu a::before {
+	color: #FBFBFB	;
+}
+.navpic {
+	float: left;
+	width: 20%;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.rdv  {
+	background-color: #5EE367;
+	color: ;
+	align-self: center;
+	padding: 8px;
+	border-radius: 50% 20% / 10% 40%;
+	margin-left: 20px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.acceuil {
+	width: 60%;
+	height: 400px;
+	background-color: #FBFBFB;
+	margin: 10px auto 0 auto;
+	border-radius: 20px;
+}
+.acceuil .posi {
+margin-left: 40px;
+background: no-repeat url(pcio.png);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+background-size: 57px;
+background-position-x: 15px;
+background-position-y: 23px;
+height: 40px;
+
+
+}
+.doclogo {
+	float: right;
+	margin-right: 50px;
+}
+.logo {
+	float: right;
+}
+
+.frany {
+	margin-top: 100px ;
+	margin-left: 200px;
+}
+
+.texte {
+	margin-left: 200px;
+}
+
+.acceuilpic {
+	float: left;
+	margin-left: 250px;
+}
+
+.carre {
+	display: flex;
+	float: left;
+	margin-top: -13px;
+}
+.vide{
+	width: 100px;
+}
+
+.grand {
+	width: 130px;
+	height: 180px;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+	text-align: center;
+}
+.large {
+	width: 180px;
+	height: 150px;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	position: relative;
+	top: 26px;
+}
+.petit {
+	width: 140px;
+	height: 120px;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	position: relative;
+	top: 55px;
+}
+
+.Presentation{
+	margin-left: 65px;
+	margin-block: 10px;
+	width: 91%;
+	height: 555px;
+	border-color: black;
+	background-color: white;
+	text-align: center;
+	border: 4px solid;
+	border-radius: 20px;
+}
+.element1 {
+	align-content: center;
+	background: no-repeat url(pcio.png);
+	height: 42px;
+	background-position-x: center;
+	background-position-y: 24px;
+	font-size: 24px;
+	margin-left: 30px;
+}
+
+.h3 {
+	display: block;
+}
+
+.gauche {
+	border-radius: 20px;
+	float: left	;
+	margin-left: 20px;
+	margin-right: 34px;
+	margin-top: 40px;
+}
+
+.droite {
+	float: right;
+	position: relative;
+	bottom: 406px;
+	border-radius: 20px;
+	margin-right: 34px;
+	margin-top: 40px;
+}
+
+.middletext{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 83px;
+	line-height: 43px;
+	margin-top: 2px;
+}
+.fff {
+	width: 50%;
+	height: 300px;
+	margin-top: -194px;
+	margin-left: 696px;
+  }	
+.img > h3 {
+	    /* text-align: center; */
+	    font-size: 33px;
+	    margin-left: 458px;
+	}
+
+.img > img {
+	float: right;
+}
+.icone {
+	    display: flex;
+	    flex-direction: column;
+
+}
+.icone > a {
+	margin-bottom: 20px;
+	position: relative;
+	right: 300px;
+	top: 300px;
+}
+#icon1 {
+	margin-top: 200px;
+}
+.img {
+	float: left;
+}
+
+
+footer {
+	background-color: #68C781;
+	margin-top: 300px;
+	height: 280px;
+}
+
+.sup {
+	height: 85%	;
+	display: flex;
+}
+.services {
+	width: 15%;
+	padding-top: 26px;
+	padding-left: 94px;
+	height: 136px;	
+}
+.liens-important  {
+	width: 15%;
+	position: relative;
+	left: 140px;
+	height: 136px;
+	top: 26px;
+}
+
+.rsociaux  {
+	width: 15%;
+	position: relative;
+	left: 210px;
+	height: 136px;
+	top: 26px;
+}
+
+
+.facebook , .gmail {
+	display: flex;
+	margin-bottom: -12px;
+}
+.gmail p , .siege p , .annexe p , .pediatrie p {
+	position: relative;
+	left: 10px;
+	bottom: 15px;
+}
+
+
+.facebook p {
+	position: relative;
+	left: 16px;
+	bottom: 14px;
+}
+
+.contact {
+	width: 25%;
+	position: relative;
+	left: 310px;
+	height: 136px;
+	top: 26px;
+}
+
+.siege , .annexe , .pediatrie {
+	display: flex;
+}
+
+
+
+.inf {
+	height: 15%;
+	background-color: #4ACF77;
+	display: flex;
+}
+.inf p {
+	margin-left:40px ;
+	color: white;
+}
+.inf img {
+	margin-left: 10px;
+margin-top: 16px;
+position: relative;
+left: 1260px;
+}
+
+.perso p  {
+	display: none;
+}
+.perso:hover p , .acceuil2:hover p , .docs:hover p , .urgence:hover p {
+	display: flex;
+	color: black;
+	position: relative;
+	right: 20px;
+}
+.acceuil2 p , .docs p , .urgence p {
+	display: none;
+}
