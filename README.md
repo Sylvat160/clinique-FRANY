@@ -1,1 +1,1 @@
-# clinique-FRANY
+# clinique
